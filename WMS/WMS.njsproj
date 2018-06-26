@@ -29,9 +29,23 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="api\handler\productinfo.js" />
+    <Compile Include="api\routes\index.js" />
+    <Compile Include="api\routes\productinfo.js" />
+    <Compile Include="config\index.js" />
+    <Compile Include="models\index.js" />
+    <Compile Include="models\productinfo.js" />
     <Compile Include="server.js" />
+    <Content Include="config\server_settings.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="api\" />
+    <Folder Include="api\handler\" />
+    <Folder Include="api\routes\" />
+    <Folder Include="config\" />
+    <Folder Include="models\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
