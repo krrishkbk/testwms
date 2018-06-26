@@ -1,0 +1,9 @@
+{
+  "name": "wms",
+  "version": "0.0.0",
+  "description": "WMS",
+  "main": "server.js",
+  "author": {
+    "name": "Dnynanshwar"
+  }
+}
