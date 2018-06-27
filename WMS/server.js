@@ -16,5 +16,5 @@ server.start(err => {
         console.error('Error was handled!');
         console.error(err);
     }
-    console.log(`Server started at ${server.info.uri}`);
+    console.log('Server started at ' + server.info.uri  );
 });

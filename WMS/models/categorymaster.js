@@ -1,13 +1,13 @@
 "use strict";
 
 module.exports = function (sequelize, DataTypes) {
-    var productinfo = sequelize.define("productinfo", {
-        ProductId: {
+    var categorymaster = sequelize.define("categorymaster", {
+        CategoryID: {
             type: DataTypes.INTEGER,
             autoIncrement: true,
             primaryKey: true
         },
-        ProductName: {
+        CategoryName: {
             type: DataTypes.STRING
         },
         CreatedBy: {
@@ -25,6 +25,6 @@ module.exports = function (sequelize, DataTypes) {
      
     }, { freezeTableName: true, timestamps: false });
 
-    productinfo.removeAttribute('id');
-    return productinfo;
+    categorymaster.removeAttribute('id');
+    return categorymaster;
 };
