@@ -29,9 +29,11 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="api\handler\subcategorymaster.js" />
     <Compile Include="api\handler\categorymaster.js" />
     <Compile Include="api\handler\brandmaster.js" />
     <Compile Include="api\handler\productinfo.js" />
+    <Compile Include="api\routes\subcategorymaster.js" />
     <Compile Include="api\routes\categorymaster.js" />
     <Compile Include="api\routes\index.js" />
     <Compile Include="api\routes\brandmaster.js" />

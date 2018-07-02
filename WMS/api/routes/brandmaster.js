@@ -1,14 +1,14 @@
 ﻿
-const productinfo = require('../handler/brandmaster');
+const brandmaster = require('../handler/brandmaster');
 
 module.exports = [
     {
         method: 'POST',
         path: '/api/brandmaster/addbranddetails',
-        config: productinfo.addbranddetails
+        config: brandmaster.addbranddetails
     },
     {
         method: 'POST',
         path: '/api/brandmaster/updatebranddetails',
-        config: productinfo.updatebranddetails
+        config: brandmaster.updatebranddetails
     }]; 

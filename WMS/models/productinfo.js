@@ -7,8 +7,32 @@ module.exports = function (sequelize, DataTypes) {
             autoIncrement: true,
             primaryKey: true
         },
+        ProductGroupId: {
+            type: DataTypes.INTEGER
+        },
         ProductName: {
             type: DataTypes.STRING
+        },
+        ProductDescription: {
+            type: DataTypes.TEXT
+        },
+        BrandID: {
+            type: DataTypes.INTEGER
+        },
+        SubCategoryID: {
+            type: DataTypes.INTEGER
+        },
+        MRP: {
+            type: DataTypes.DECIMAL
+        },
+        OfferMRP: {
+            type: DataTypes.DECIMAL
+        },
+        HSNCode: {
+            type: DataTypes.STRING
+        },
+        IsActive: {
+            type: DataTypes.BOOLEAN
         },
         CreatedBy: {
             type: DataTypes.STRING
@@ -21,8 +45,8 @@ module.exports = function (sequelize, DataTypes) {
         },
         LastModifiedDate: {
             type: DataTypes.DATE
-        } 
-     
+        }
+
     }, { freezeTableName: true, timestamps: false });
 
     productinfo.removeAttribute('id');

@@ -6,4 +6,8 @@ module.exports = [
         method: 'GET',
         path: '/api/productinfo/getproductdetails',
         config: productinfo.getproductdetails
+    }, {
+        method: 'POST',
+        path: '/api/productinfo/addproductdetails',
+        config: productinfo.addproductdetails
     }]; 
