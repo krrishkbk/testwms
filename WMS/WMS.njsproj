@@ -29,16 +29,19 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="api\handler\productmeasurmentdetails.js" />
     <Compile Include="api\handler\subcategorymaster.js" />
     <Compile Include="api\handler\categorymaster.js" />
     <Compile Include="api\handler\brandmaster.js" />
     <Compile Include="api\handler\productinfo.js" />
+    <Compile Include="api\routes\productmeasurmentdetails.js" />
     <Compile Include="api\routes\subcategorymaster.js" />
     <Compile Include="api\routes\categorymaster.js" />
     <Compile Include="api\routes\index.js" />
     <Compile Include="api\routes\brandmaster.js" />
     <Compile Include="api\routes\productinfo.js" />
     <Compile Include="config\index.js" />
+    <Compile Include="models\productmeasurmentdetails.js" />
     <Compile Include="models\subcategorymaster.js" />
     <Compile Include="models\categorymaster.js" />
     <Compile Include="models\index.js" />
