@@ -10,4 +10,8 @@ module.exports = [
         method: 'POST',
         path: '/api/productinfo/addproductdetails',
         config: productinfo.addproductdetails
+    }, {
+        method: 'POST',
+        path: '/api/productinfo/updateproductdetails',
+        config: productinfo.updateproductdetails
     }]; 

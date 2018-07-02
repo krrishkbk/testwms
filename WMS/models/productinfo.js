@@ -23,10 +23,10 @@ module.exports = function (sequelize, DataTypes) {
             type: DataTypes.INTEGER
         },
         MRP: {
-            type: DataTypes.DECIMAL
+            type: DataTypes.DECIMAL(18,2)
         },
         OfferMRP: {
-            type: DataTypes.DECIMAL
+            type: DataTypes.DECIMAL(18, 2)
         },
         HSNCode: {
             type: DataTypes.STRING

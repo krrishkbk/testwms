@@ -1,5 +1,6 @@
 ﻿'use strict';
 const models = require('../../models');
+const Sequelize = require('sequelize');
 
 exports.addbranddetails = {
     handler: function (request, reply) {
